@@ -1,6 +1,6 @@
 # Introduction
 
-Use Seaborn (https://seaborn.pydata.org/) theme for consistent and readable plots from Python matplotlib. 
+Use Seaborn (https://seaborn.pydata.org/) theme for consistent and readable plots from Python matplotlib; theme enforces font and size rules. 
 
 # Run Example
 ```
