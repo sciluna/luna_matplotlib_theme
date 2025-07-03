@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["requests>=2.32", "pandas>=2.2", "seaborn>=0.13", "matplotlib>=3.10"]
+# dependencies = ["requests>=2.32", "pandas>=2.2", "matplotlib>=3.10"]
 # ///
 
 import requests
@@ -10,7 +10,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from io import StringIO
 
-from luna_seaborn_theme import apply_luna_theme
+from luna_matplotlib_theme import apply_luna_theme
 
 # (Optional) Setup matplotlib Backend
 # Use a backend that doesn't require a GUI
